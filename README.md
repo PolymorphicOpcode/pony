@@ -16,7 +16,7 @@ Clear-ItemProperty -Path "HKCU:\AppEvents\Schemes\Apps\.Default\Open\.Current" -
 
 These three references must be added
 
-![Macro References](attachments/macro-references.png)
+![Macro References](macro-references.png)
 
 ```vb
 Option Explicit
